@@ -6,7 +6,6 @@
   color: white;
 }
 section {
-  height: 150vh;
   background-color: #303032;
 }
 .image {
@@ -30,29 +29,21 @@ button {
 }
 .title {
   font-size: 20px;
-  position: absolute;
   padding-top: 10px;
 }
 
-.title-min {
-  background-color: #39393b;
-}
-.all-containers {
+.container {
   width: 80%;
   margin: 0 auto;
+  padding-top: 30px;
 }
-.container {
-  background-color: #39393b;
-}
-.containers {
+.row {
   display: flex;
+  flex-wrap: wrap;
+
   gap: 50px;
   padding-bottom: 100px;
   position: relative;
-}
-
-.first-sec-tirth-containers {
-  padding-top: 30px;
 }
 
 .seventh-image {
@@ -63,7 +54,7 @@ button {
   width: 130px;
   height: 25px;
   border-radius: 0px;
-  background-color: black;
+  background-color: rgb(21, 21, 21);
   color: white;
   position: fixed;
   bottom: 10px;
